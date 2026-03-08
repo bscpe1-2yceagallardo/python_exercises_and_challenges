@@ -1,6 +1,6 @@
 # Ask 2 numbers
-num1 = int(input("Please input first number:  "))
-num2 = int(input("Please input second number: "))
+num1 = float(input("Please input first number:  "))
+num2 = float(input("Please input second number: "))
 
 # Bigger number
 if num1 > num2:
