@@ -1,3 +1,4 @@
 # Loop zero to one hundred
 for i in range(101):
-    print(i)
+    # Except for numbers ended with zero or five
+    if i % 10 not in (0,5):
