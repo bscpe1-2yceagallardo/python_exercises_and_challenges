@@ -7,3 +7,4 @@ for i in range(10):
         result = numbers
     else:
          result -= numbers
+print(f"The answer for first number minus remaining number is {result}.")
