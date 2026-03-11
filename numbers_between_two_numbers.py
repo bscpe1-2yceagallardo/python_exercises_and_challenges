@@ -1,3 +1,6 @@
 # Asking two numbers
-num1 = int(input("Please input first number:  "))
-num2 = int(input("Please input second number:  "))
+first = int(input("Please input first number:  "))
+last = int(input("Please input last number:  "))
+
+# Numbers between
+numbers_between = list(range(first + 1, last))
