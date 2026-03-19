@@ -8,3 +8,11 @@ for i in range(10):
     numbers.append(num)
     if num not in unique_numbers:
         unique_numbers.append(num)
+
+# Print all numbers entered
+print("\nAll numbers entered:")
+print(numbers)
+
+# Print numbers without duplicates (only first occurrence)
+print("\nNumbers without duplicates:")
+print(unique_numbers)
