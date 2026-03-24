@@ -5,3 +5,6 @@ name = input("Enter your full name: ")
 i = len(name) - 1
 while i >= 0 and name[i] == " ":
     i -= 1
+
+# Slice up to the last non-space character
+print("After rstrip():", name[:i+1])
