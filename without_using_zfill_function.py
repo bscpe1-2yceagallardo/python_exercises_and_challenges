@@ -6,3 +6,6 @@ width = int(input("Enter the total width: "))
 spaces = width - len(text)
 if spaces > 0:
     text = "0" * spaces + text
+
+# Print after zfill()
+print("After zfill():", text)
