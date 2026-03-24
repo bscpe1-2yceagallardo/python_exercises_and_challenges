@@ -5,3 +5,7 @@ while True:
     input_numbers = input("Enter a number: ")
     if not input_numbers.isdigit(): break
     nums.append(int(input_numbers))
+
+# Printing and sorting highest to lowest
+nums.sort(reverse=True)
+print("Numbers from lowest to highest:", nums)
