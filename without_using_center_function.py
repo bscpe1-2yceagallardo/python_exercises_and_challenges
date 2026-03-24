@@ -8,3 +8,6 @@ if spaces > 0:
     left = spaces // 2
     right = spaces - left
     text = " " * left + text + " " * right
+
+# Print into after center
+print("After center():", text)
