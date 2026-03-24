@@ -1,5 +1,6 @@
 # Input for a text
 text = input("Enter a string: ")
+result = ""
 
 # Loop for converting uppercase letters to lowercase
 for characters in text:
