@@ -7,3 +7,6 @@ count = 0
 for character in text:
     if character == char:
         count += 1
+
+# Print the number of appearance of the character
+print(f"Character '{char}' appears {count} times.")
