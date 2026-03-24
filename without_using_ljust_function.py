@@ -6,3 +6,6 @@ width = int(input("Enter the total width: "))
 spaces = width - len(text)
 if spaces > 0:
     text = text + " " * spaces
+
+# Print the text with desired ends-width spaces
+print("After ljust():", text)
