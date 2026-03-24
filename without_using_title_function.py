@@ -17,3 +17,6 @@ for characters in text:
         else:
             result += characters
         new_word = False
+
+# Print into title-cased
+print("Title-cased string:", result)
