@@ -6,3 +6,7 @@ for i in range(10):
 # Print all numbers entered
 print("\nAll numbers entered:")
 print(numbers)
+
+# Print numbers without duplicates (only first occurrence)
+print("\nNumbers with first occurrence of duplicates:")
+print(set(numbers))
