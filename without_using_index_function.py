@@ -9,3 +9,7 @@ for i in range(len(text) - len(substr) + 1):
         print("First occurrence index:", i)
         found = True
         break
+
+# Print if substring not found
+if not found:
+    print("Substring not found")
