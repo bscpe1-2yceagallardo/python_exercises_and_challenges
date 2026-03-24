@@ -7,3 +7,6 @@ for i in text:
     if 'A' <= i <= 'Z':
         is_lower = False
         break
+
+# Printing true if string is all in lowercase
+print("All letters are lowercase:", is_lower)
