@@ -8,3 +8,6 @@ for i in text:
         result +=chr(ord(i)-32)
     else:
         result += i
+
+# Print into uppercase
+print("Uppercase string:", result)
