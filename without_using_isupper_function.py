@@ -7,3 +7,6 @@ for characters in text:
     if 'a' <= characters <= 'z':
         is_upper = False
         break
+
+# Printing true if string is all in capital
+print("All letters are uppercase:", is_upper)
