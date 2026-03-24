@@ -15,3 +15,7 @@ if len(text) > 0:
             result += chr(ord(characters) + 32)
         else:
             result += characters
+    # Print into capitalized
+    print("Capitalized string:", result)
+else:
+    print(text)
