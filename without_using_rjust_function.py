@@ -6,3 +6,6 @@ width = int(input("Enter the total width: "))
 spaces = width - len(text)
 if spaces > 0:
     text = " " * spaces + text
+
+# Print the text with desired starts-width spaces
+print("After rjust():", text)
