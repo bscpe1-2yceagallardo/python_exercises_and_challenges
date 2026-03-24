@@ -8,3 +8,6 @@ for characters in text:
         result += chr(ord(characters) + 32)
     else:
         result += characters
+
+# Print into lowercase
+print("Lowercase string:", result)
