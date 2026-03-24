@@ -2,3 +2,7 @@
 numbers = []
 for i in range(10):
     numbers.append(int(input("Enter a number: ")))
+
+# Print all numbers entered
+print("\nAll numbers entered:")
+print(numbers)
