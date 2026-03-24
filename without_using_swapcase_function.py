@@ -12,3 +12,6 @@ for characters in text:
         result += chr(ord(characters) - 32)
     else:
         result += characters  # Non-alphabet characters remain unchanged
+
+# Print into swapped case
+print("Swapped case:", result)
